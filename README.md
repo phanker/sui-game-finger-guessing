@@ -51,7 +51,7 @@ You'll find the call log of game after you called the play function.
 
 You can discover the result of game on the Events,which is a part of entire log.
 
-`The Events log contain completed information.You can get the specific result of game via observing 'parsedJson' field.
+`The Events log contain completed information.You can get the specific result of game via observing 'parsedJson' field.The game has three outcomes: 'dogfall', 'you win', and 'you lose'.  
 
 Below is the full Events log
 
