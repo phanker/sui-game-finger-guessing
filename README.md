@@ -70,13 +70,6 @@ sui client call \
  --args 0xbff91a5fd90bb5cb38d770494ba772cbcd99ce5d39b7246b2bb26002c09f01c7 Scissors 0xaf51d4fa724f294eb244a91ab4e244d4c7dad998d33564ced2c47e918578913b 0x6
 ```
 
-```shell
---package = the package_id of contract that was deployed on SUI
---module = finger_guessing
---function = play
---args =
-```
-
 ### 6.Result of game
 
 You'll find the call log of game after you called the play function.
