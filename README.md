@@ -59,7 +59,7 @@ details of args,
 sui_holder: the object id of sui holder,it is a shared object that you can pass it to participate in the game.  
 input_gesture: the gesture you guess.up to now,it just supports 'Rock' , 'Scissors' and 'Paper'.  
 fee: &mut Coin<SUI>, it reprents you need pass your object of sui coins you posses.  
-clock: &Clock, it's a standarad object.you just passes '0x6' is okay.it's able to get timestamp of current block,I generate a random number according to it's timestamp,you should aviod to do that,it's not a standarad appoarch to generate random number.  
+clock: &Clock, it's a standarad object.you just passes '0x6' is okay.it's able to get timestamp of current block,I generate a random number according to it's timestamp,you should avoid to do like that,it's not a standarad appoarch to generate random number.  
 
 ```shell
 sui client call \
